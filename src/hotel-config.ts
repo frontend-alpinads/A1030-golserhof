@@ -2,62 +2,62 @@
 // HOTEL_CONFIG - Core hotel identity & contact
 // ============================================
 export const HOTEL_CONFIG = {
-  name: "Hotel Name",
-  shortName: "Hotel",
+  name: "Hotel Golserhof",
+  shortName: "Golserhof",
   type: "Hotel" as const,
 
   location: {
-    street: "Musterstraße 1",
-    postalCode: "IT-39000",
-    city: "Stadt",
+    street: "Hauptstraße 8",
+    postalCode: "IT-39019",
+    city: "Dorf Tirol",
     region: "Südtirol",
     country: "Italien",
     coordinates: {
-      lat: 46.5,
-      lng: 11.5,
+      lat: 46.6897,
+      lng: 11.1475,
     },
   },
 
   contact: {
-    email: "info@example.com",
+    email: "info@golserhof.it",
     phone: {
-      main: { display: "+39 0000 000 000", href: "tel:+390000000000" },
+      main: { display: "+39 0473 923 356", href: "tel:+390473923356" },
       whatsapp: {
-        display: "",
-        href: "",
+        display: "+39 0473 923 356",
+        href: "https://wa.me/390473923356",
       },
     },
     website: {
-      main: "https://www.example.com",
-      booking: "",
+      main: "https://hotel.golserhof.it/",
+      booking: "https://hotel.golserhof.it/",
     },
   },
 
   social: {
-    facebook: "",
-    instagram: "",
+    facebook: "https://www.facebook.com/golserhof",
+    instagram: "https://www.instagram.com/golserhof",
     youtube: undefined,
   },
 
   legal: {
     taxId: "",
     imprint: {
-      de: "",
-      en: "",
-      it: "",
+      de: "https://hotel.golserhof.it/impressum",
+      en: "https://hotel.golserhof.it/en/imprint",
+      it: "https://hotel.golserhof.it/it/impressum",
     },
     privacy: {
-      de: "",
-      en: "",
-      it: "",
+      de: "https://hotel.golserhof.it/datenschutz",
+      en: "https://hotel.golserhof.it/en/privacy",
+      it: "https://hotel.golserhof.it/it/privacy",
     },
   },
 
   branding: {
     logo: {
-      main: "/full-logo.png",
-      mobile: "/full-logo-mobile.svg",
-      alt: "/placeholder.svg",
+      main: "https://hotel.golserhof.it/media/ozqjekfu/logo.svg",
+      mobile: "https://hotel.golserhof.it/media/ozqjekfu/logo.svg",
+      alt: "https://hotel.golserhof.it/media/ozqjekfu/logo.svg",
     },
     dimensions: {
       mobile: { width: 132, height: 74 },
@@ -67,7 +67,7 @@ export const HOTEL_CONFIG = {
 
   copyright: {
     year: 2026,
-    holder: "Hotel Name",
+    holder: "Hotel Golserhof",
   },
 };
 
@@ -76,22 +76,22 @@ export const HOTEL_CONFIG = {
 // ============================================
 export const BOOKING_CONFIG = {
   bookingUrls: {
-    de: "",
-    en: "",
-    it: "",
+    de: "https://hotel.golserhof.it/",
+    en: "https://hotel.golserhof.it/",
+    it: "https://hotel.golserhof.it/",
   },
 
   dates: {
-    minBookingDate: "2026-02-21",
+    minBookingDate: "2026-03-04",
   },
 
   checkIn: {
     from: "14:00",
-    to: "",
+    to: "18:00",
   },
 
   checkOut: {
-    until: "11:00",
+    until: "10:30",
   },
 
   touristTax: {
@@ -122,7 +122,7 @@ export const BOOKING_CONFIG = {
 // TECHNICAL_CONFIG - Dev/deployment settings
 // ============================================
 export const TECHNICAL_CONFIG = {
-  projectId: "hotel-template",
+  projectId: "A1030",
 
   urls: {
     production: "https://example.com",
@@ -134,9 +134,9 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "info@example.com",
-    replyTo: "info@example.com",
-    transactional: "hotel@updates.alpinads.app",
+    from: "noreply@example.com",
+    replyTo: "info@golserhof.it",
+    transactional: "hotel-golserhof@updates.alpinads.app",,
     assetsBaseUrl: "https://example.com",
   },
 
@@ -151,45 +151,33 @@ export const TECHNICAL_CONFIG = {
 // ============================================
 export const SEO_CONFIG = {
   baseUrl: "https://example.com",
-  ogImage: "/placeholder.svg",
+  ogImage: "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg",
 
   home: {
     de: {
-      title: "Hotel Name - Urlaub in Südtirol",
-      description:
-        "Willkommen im Hotel Name in Südtirol. Genießen Sie Ihren Urlaub mit Wellness, Frühstück und traumhaftem Blick auf die Dolomiten.",
-      ogTitle: "Hotel Name - Urlaub in Südtirol",
-      ogDescription:
-        "Hotel Name: Ihr Urlaubsziel in Südtirol mit Wellness und Frühstück.",
+      title: "Hotel Golserhof ★★★★S – Das kleinste 4*s Hotel in Meran | Dorf Tirol",
+      description: "Boutiquehotel Golserhof in Dorf Tirol bei Meran: 30 exklusive Zimmer & Suiten, Wellness mit beheizten Pools, Gourmetküche und Panoramablick auf die Dolomiten. Echte Südtiroler Gastfreundschaft erleben.",
+      ogTitle: "Hotel Golserhof – Boutiquehotel in Dorf Tirol bei Meran",
+      ogDescription: "Entdecken Sie das kleinste 4*s Hotel in Meran: Stilvoller Komfort, Wellness, Gourmetküche und atemberaubende Bergpanoramen in Südtirol.",
       ogLocale: "de_DE",
     },
     en: {
-      title: "Hotel Name - Holiday in South Tyrol",
-      description:
-        "Welcome to Hotel Name in South Tyrol. Enjoy your holiday with wellness, breakfast and stunning views of the Dolomites.",
-      ogTitle: "Hotel Name - Holiday in South Tyrol",
-      ogDescription:
-        "Hotel Name: Your holiday destination in South Tyrol with wellness and breakfast.",
+      title: "Hotel Golserhof ★★★★S – The Smallest 4*s Hotel in Merano | Dorf Tirol",
+      description: "Boutique Hotel Golserhof in Dorf Tirol near Merano: 30 exclusive rooms & suites, wellness with heated pools, gourmet cuisine and panoramic views of the Dolomites. Experience authentic South Tyrolean hospitality.",
+      ogTitle: "Hotel Golserhof – Boutique Hotel in Dorf Tirol near Merano",
+      ogDescription: "Discover the smallest 4*s hotel in Merano: Stylish comfort, wellness, gourmet cuisine and breathtaking mountain panoramas in South Tyrol.",
       ogLocale: "en_US",
     },
     it: {
-      title: "Hotel Name - Vacanza in Alto Adige",
-      description:
-        "Benvenuti all'Hotel Name in Alto Adige. Godetevi la vostra vacanza con wellness, colazione e vista mozzafiato sulle Dolomiti.",
-      ogTitle: "Hotel Name - Vacanza in Alto Adige",
-      ogDescription:
-        "Hotel Name: La vostra destinazione di vacanza in Alto Adige con wellness e colazione.",
+      title: "Hotel Golserhof ★★★★S – Il più piccolo hotel 4*s di Merano | Tirolo",
+      description: "Boutique Hotel Golserhof a Tirolo vicino Merano: 30 camere e suite esclusive, wellness con piscine riscaldate, cucina gourmet e vista panoramica sulle Dolomiti. Vivi l'autentica ospitalità altoatesina.",
+      ogTitle: "Hotel Golserhof – Boutique Hotel a Tirolo vicino Merano",
+      ogDescription: "Scopri il più piccolo hotel 4*s di Merano: comfort raffinato, wellness, cucina gourmet e panorami montani mozzafiato in Alto Adige.",
       ogLocale: "it_IT",
     },
   },
 
-  keywords: [
-    "Hotel Südtirol",
-    "Urlaub Dolomiten",
-    "Holiday South Tyrol",
-    "Vacanza Alto Adige",
-    "Wellness Südtirol",
-  ],
+  keywords: ["Hotel Golserhof","Boutique Hotel Meran","4 Sterne Superior Hotel Südtirol","Dorf Tirol","Wellness Hotel Meran","Gourmethotel Südtirol","Panoramahotel Dolomiten","Boutique Hotel Dorf Tirol","Luxushotel Meran","Wellnessurlaub Südtirol"],
 };
 
 // ============================================
@@ -270,7 +258,7 @@ export const hotelProfile: HotelProfile = {
     privacyBaseUrl: HOTEL_CONFIG.legal.privacy.de,
   },
   credits: { alpinAdsUrl: TECHNICAL_CONFIG.credits.agencyUrl },
-  logo: {
+   logo: {
     src: HOTEL_CONFIG.branding.logo.main,
     mobileSrc: HOTEL_CONFIG.branding.logo.mobile,
     mobile: HOTEL_CONFIG.branding.dimensions.mobile,
