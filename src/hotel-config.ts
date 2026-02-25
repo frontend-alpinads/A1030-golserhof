@@ -125,7 +125,7 @@ export const TECHNICAL_CONFIG = {
   projectId: "A1030",
 
   urls: {
-    production: "https://example.com",
+    production: "https://offers.hotel.golserhof.it",
     staging: "",
   },
 
@@ -134,10 +134,10 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "noreply@example.com",
+    from: "noreply@hotel.golserhof.it",
     replyTo: "info@golserhof.it",
     transactional: "hotel-golserhof@updates.alpinads.app",,
-    assetsBaseUrl: "https://example.com",
+    assetsBaseUrl: "https://offers.hotel.golserhof.it",
   },
 
   credits: {
@@ -150,7 +150,7 @@ export const TECHNICAL_CONFIG = {
 // SEO_CONFIG - Metadata for all languages
 // ============================================
 export const SEO_CONFIG = {
-  baseUrl: "https://example.com",
+  baseUrl: "https://offers.hotel.golserhof.it",
   ogImage: "https://hotel.golserhof.it/media/v5uohlk2/freibad-2.jpg",
 
   home: {
